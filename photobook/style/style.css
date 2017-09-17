@@ -214,9 +214,10 @@ body {background: #ffffff; color:#000; font-family: 'PFAgoraSansPro-Reg';}
 }
 
 @media screen and (min-width: 240px) and (max-width: 479px) {
-	.header {padding: 0 0px;}
+	.header {padding: 0 0px; height: 100px;}
 	.logo {float: left;margin-top: 30px;margin-left: 10px;}
-	.phone {margin-top: 23px;margin-right: 20px;padding: 8px 10px; width: 140px;}
+	.phone {display: block; padding: 5px 10px; margin: auto; float: none;}
+	.phone span {margin-top: 60px;}
 	.create-title h1 {font-size: 24px;}
 	.create-title h1 span {font-size: 32px;}
 	.create-button a {font-size: 18px; width: 220px;}
