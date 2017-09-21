@@ -108,7 +108,7 @@ body {background: #ffffff; color:#000; font-family: 'PFAgoraSansPro-Reg';}
 .tt-aut {font-family: "PFAgoraSansPro-Light"; font-size: 34px;}
 .testimonials-text {font-family: "PFAgoraSansPro-Light"; font-size: 18px;}
 .testimonials-text p {padding: 5px 0;}
-.testimonials-text span {float: right; overflow: auto; margin-top: 26px;}
+.testimonials-text span {float: right; margin-top: 26px;}
 .testimonials-text span a {font-family: "PFAgoraSansPro-Thin"; font-size: 16px; color:#000; text-decoration: none;}
 .testimonials-text span a:after {content:'';background: url(../images/nextarrow.png) no-repeat; display: inline-block; width: 26px; height: 3px; vertical-align: middle;margin-left: 8px;}
 .testimonial-button a {font-family: "PFAgoraSansPro-Thin"; font-size: 29px;text-decoration: none; text-transform: uppercase; text-align: center; display: block;border: 1px solid #000; border-radius: 10px; width: 375px; height: 64px; line-height: 66px; color:#212121;  margin: auto; margin-top: 157px;}
@@ -116,7 +116,7 @@ body {background: #ffffff; color:#000; font-family: 'PFAgoraSansPro-Reg';}
 
 /** Terms */
 .terms {width: 100%}
-.terms-w {max-width: 1204px; margin: 0 auto;text-align: center;margin-top: 91px; overflow: auto;}
+.terms-w {max-width: 1204px; margin: 0 auto;text-align: center;margin-top: 91px;}
 .terms-block {display: inline-block;width: 314px;height: 306px;background: #f7f0e6;vertical-align: top; margin-right: 64px; border-radius: 10px;}
 .terms-block:nth-child(3) {margin: 0;}
 .terms-title {font-family: "PFAgoraSansPro-Light"; font-size: 28px; line-height: 66px; letter-spacing: 3px; height: 65px; background: #ffd200; border-radius: 10px 10px 0 0; border-bottom: 7px solid #fff;text-transform: uppercase;}
