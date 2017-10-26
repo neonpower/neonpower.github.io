@@ -1,27 +1,7 @@
-@font-face {
-font-family: "PFAgoraSansPro-Reg";  
-src: url("../fonts/PFAgoraSansPro-Reg.ttf") format("truetype"); 
-font-style: normal; 
-font-weight: normal;
-}
-@font-face {
-font-family: "PFAgoraSansPro-Light";  
-src: url("../fonts/PFAgoraSansPro-Light.ttf") format("truetype"); 
-font-style: normal; 
-font-weight: normal;
-}
-@font-face {
-font-family: "PFAgoraSansPro-XThin";  
-src: url("../fonts/PFAgoraSansPro-XThin.ttf") format("truetype"); 
-font-style: normal; 
-font-weight: normal;
-}
-@font-face {
-font-family: "PFAgoraSansPro-Thin";  
-src: url("../fonts/PFAgoraSansPro-Thin.ttf") format("truetype"); 
-font-style: normal; 
-font-weight: normal; 
-}
+@font-face {font-family: "PFAgoraSansPro-Reg"; src: url("../fonts/PFAgoraSansPro-Reg.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face {font-family: "PFAgoraSansPro-Light"; src: url("../fonts/PFAgoraSansPro-Light.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face {font-family: "PFAgoraSansPro-XThin"; src: url("../fonts/PFAgoraSansPro-XThin.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face {font-family: "PFAgoraSansPro-Thin"; src: url("../fonts/PFAgoraSansPro-Thin.ttf") format("truetype"); font-style: normal; font-weight: normal; }
 
 
 * {margin: 0;padding: 0;}
