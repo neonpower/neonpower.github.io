@@ -4,6 +4,98 @@
 		"selected_items":
 		[
 			[
+				"func",
+				"function"
+			],
+			[
+				"doc",
+				"document\t: Document Window"
+			],
+			[
+				"setT",
+				"setTimeout\t( handler: any, timeout?: long, arguments_..: any ): long Window"
+			],
+			[
+				"conta",
+				"container"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"rand",
+				"randomNub"
+			],
+			[
+				"ran",
+				"randomNub"
+			],
+			[
+				"nu",
+				"number2"
+			],
+			[
+				"cons",
+				"console_log"
+			],
+			[
+				"getElementByi",
+				"description-getElementById\tDocument"
+			],
+			[
+				"user",
+				"userName"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"pro",
+				"prompt"
+			],
+			[
+				"s",
+				"service-bg.jpg\tw:1920 h:953"
+			],
+			[
+				"colu",
+				"column"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"res",
+				"result-text"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"sp",
+				"about-sprites.png\tw:336 h:273"
+			],
+			[
 				"ba",
 				"background-position"
 			],
@@ -36,10 +128,6 @@
 				"getMinB"
 			],
 			[
-				"ge",
-				"getMinA"
-			],
-			[
 				"lig",
 				"login"
 			],
@@ -56,20 +144,12 @@
 				"alt\tAttr"
 			],
 			[
-				"s",
-				"src\tAttr"
-			],
-			[
 				"ov",
 				"overflow"
 			],
 			[
 				"d",
 				"display"
-			],
-			[
-				"a",
-				"alt\tAttr"
 			],
 			[
 				"bl",
@@ -116,10 +196,6 @@
 				"margin"
 			],
 			[
-				"tran",
-				"transition"
-			],
-			[
 				"c",
 				"center"
 			],
@@ -140,21 +216,13 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<title>Document</title>\n\t<style>\n\tbody {\n\t\tmargin-top: 100px;\n\t}\n\tp {\n\n\t}\n\tlabel {\n\t\tdisplay: block;\n\t\tpadding:10px 0;\n\t}\n\n/* \t#container {\n\twidth:384px;\n\theight: 128px;\n\tmargin: 0 auto;\n\tbackground: yellow;\n\tborder:5px solid #000;\n\tposition: relative;\n\toverflow: hidden;\n\t\n} */\n\n\t#slider {\n\t\twidth: 1024px;\n\t\theight: 128px;\n\t\tposition: relative;\n\t\tleft:0;\n\t\ttransition: 0.5s;\n\t}\n\n\t#slider div {\n\t\tfloat:left;\n\t\ttext-align: center;\n\t}\n\n\t#slider img {\n\t\twidth:auto;\n\t\theight: 100%;\n\t\tbackground: #fff;\n\t}\n\n\t</style>\n</head>\n<body>\n\t\n\t<div id=\"container\">\n<!-- \n\t\t<div id=\"slider\">\n\t\t\t<div><img src=\"11/1.png\" alt=\"\"></div>\n\t\t\t<div><img src=\"11/2.png\" alt=\"\"></div>\n\t\t\t<div><img src=\"11/3.png\" alt=\"\"></div>\n\t\t\t<div><img src=\"11/4.png\" alt=\"\"></div>\n\t\t\t<div><img src=\"11/5.png\" alt=\"\"></div>\n\t\t\t<div><img src=\"11/6.png\" alt=\"\"></div>\n\t\t\t<div><img src=\"11/7.png\" alt=\"\"></div>\n\t\t\t<div><img src=\"11/8.png\" alt=\"\"></div>\n\t\t</div> -->\n\n\n\t\t\n\t</div>\n\n\t<input type=\"submit\" id=\"pause\" onclick=\"clearT()\" value=\"Пауза\">\n\n\n\t<script>\n\n\t\t// var container = document.getElementsById('container');\n\t\t\nvar m1 = [];\nvar timer;\n\nfunction func() {\n\tm1.push(Math.floor(Math.random() * 10 + 1));\n\tconsole.log(m1);\n\tabc();\n}\n\n[Мама в тренде 3] #4 Уж небо осенью дышало… - Зайниева Эльвира [Pro7ya.Ru]\n\nfunction abc() {\n\ttimer = setTimeout(func, 1500);\n}\n\nfunction clearT() {\n\tclearTimeout(timer);\n}\nabc();\n\n\n\n\n\t</script>\n\n</body>\n</html>",
+			"file": "/C/Users/User/Desktop/test.html",
+			"file_size": 1508,
+			"file_write_time": 131544701768350854,
 			"settings":
 			{
-				"buffer_size": 2770,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "index.html"
-			}
-		},
-		{
-			"file": "style/style.css",
-			"settings":
-			{
-				"buffer_size": 4996,
-				"encoding": "UTF-8",
+				"buffer_size": 1480,
 				"line_ending": "Windows"
 			}
 		}
@@ -166,7 +234,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 281.0,
+		"height": 280.0,
 		"last_filter": "",
 		"selected_items":
 		[
@@ -200,10 +268,14 @@
 	},
 	"expanded_folders":
 	[
-		"/D/YandexDisk/OpenServer/domains/neonpower.github.io/marvel"
 	],
 	"file_history":
 	[
+		"/D/YandexDisk/OpenServer/domains/neonpower.github.io/marvel/style/style.css",
+		"/D/YandexDisk/OpenServer/domains/neonpower.github.io/marvel/js/script.js",
+		"/D/YandexDisk/OpenServer/domains/neonpower.github.io/marvel/index.html",
+		"/C/Users/User/Desktop/aa.html",
+		"//",
 		"/D/YandexDisk/OpenServer/domains/neonpower.github.io/bikees/index.html",
 		"/D/YandexDisk/OpenServer/domains/neonpower.github.io/bikees/style/style.css",
 		"/C/Users/User/Desktop/abu.html",
@@ -305,7 +377,7 @@
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -319,6 +391,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"document",
+			"\t\n",
+			";\n",
+			"\t\t\tdocument.getElementById('reply').innerHTML = value1;\n",
+			";\n",
+			"slide",
+			"containe",
+			"about-number",
+			"about",
+			"before",
 			"color:#444444;",
 			"font-family: \"Montserrat\";"
 		],
@@ -338,127 +420,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2770,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								177,
-								177
-							]
-						],
-						"settings":
-						{
-							"auto_name": "index.html",
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										246,
-										247
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										147,
-										148
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 42.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -466,25 +429,24 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
-					"file": "style/style.css",
+					"buffer": 0,
+					"file": "/C/Users/User/Desktop/test.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4996,
+						"buffer_size": 1480,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4862,
-								4862
+								1265,
+								1265
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.locations":
 							{
@@ -492,8 +454,8 @@
 								{
 									"1":
 									[
-										4863,
-										4864
+										1266,
+										1267
 									]
 								},
 								"icon":
@@ -501,15 +463,15 @@
 									"1":
 									[
 										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
+										"region.purplish"
 									]
 								},
 								"open":
 								{
 									"1":
 									[
-										4850,
-										4851
+										1192,
+										1193
 									]
 								},
 								"unmatched":
@@ -518,6 +480,11 @@
 							},
 							"bracket_highlighter.regions":
 							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -528,56 +495,51 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
 							],
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 5922.0,
+						"translation.y": 1596.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -614,7 +576,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.133720458354,
 			1.0
 		],
 		"rows":
