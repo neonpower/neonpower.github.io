@@ -7,7 +7,6 @@
 body {
 	font-family: 'Raleway', sans-serif;
 	background: #fff;
-	height: 10000px;
 }
 
 .container {
@@ -173,10 +172,81 @@ body {
 	max-height: 350px;
 	overflow: hidden;
 	box-shadow: -2px 0px 0px 0px rgba(255,255,255,1), 
-				0 -2px 0 0px rgba(255,255,255,1);
+					0 -2px 0 0px rgba(255,255,255,1);
 }
 .gallery-photo img {
 	max-width: 100%;
     max-height: 350px;
     vertical-align: top;
+}
+
+/** Footer **/
+
+.footer {
+	max-width: 1900px;
+	margin:0 auto;
+	text-align: center;
+	background: #3a3e64;
+}
+.footer-info {
+	border-top: 1px solid #fff;
+	min-height: 250px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.footer-copy span {
+	color:#fff;
+}
+.footer-block {
+	width: 370px;
+	margin-top: 66px;
+}
+.fb-title {
+	font-size: 14px;
+	font-weight: 700;
+	color:#fff;
+	text-transform: uppercase;
+	margin-bottom: 16px;
+}
+.footer-block p {
+	font-size: 14px;
+	line-height: 22.5px;
+	color:rgba(255, 255, 255, 0.5);
+}
+.footer-block .fb-ico {
+	background: url(../images/sprites.png) no-repeat 50% 0;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin-right: 5px;
+}
+.footer-block .fb-ico:last-child {
+	margin: 0;
+}
+.footer-block .fb-ico.facebook {
+	background-position: -242px -94px;
+}
+.footer-block .fb-ico.twitter {
+	background-position: -242px -48px;
+}
+.footer-block .fb-ico.linkedin {
+	background-position: -242px -2px;
+}
+.footer-copy {
+	background: #313454;
+	min-height: 94px;
+	font-size: 14px;
+	line-height: 22.5px;
+	color:#808080;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer-copy a {
+	color:#fff;
+	text-decoration: none;
+}
+.footer-copy a:hover {
+	color:rgba(255, 255, 255, 0.8);
 }
