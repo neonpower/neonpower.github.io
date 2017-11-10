@@ -109,9 +109,8 @@ body {
 	margin-top: 120px;
 }
 .features-block {
-	width:370px;
 	min-height: 200px;
-	width: 296px;
+	width: 300px;
 	margin-bottom: 60px;
 }
 .features-block h3 {
@@ -155,4 +154,29 @@ body {
 .features-block:nth-of-type(6) .fico {	
 	width:79px;
 	background-position: -154px -74px;
+}
+
+
+/** Gallery **/
+
+
+.gallery {
+	max-width: 1900px;	
+	margin:0 auto;
+	margin-top: 52px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.gallery-photo {
+	width: 25%;
+	max-height: 350px;
+	overflow: hidden;
+	box-shadow: -2px 0px 0px 0px rgba(255,255,255,1), 
+				0 -2px 0 0px rgba(255,255,255,1);
+}
+.gallery-photo img {
+	max-width: 100%;
+    max-height: 350px;
+    vertical-align: top;
 }
