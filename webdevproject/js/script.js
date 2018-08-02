@@ -9,11 +9,13 @@ console.log(closeMenu);
 openMenu.addEventListener('click', function () {
 	mainMenu.classList.add('active');
 	closeMenu.style.display = 'block';
+	document.body.classList.add('no-scroll');
 });
 
 closeMenu.addEventListener('click', function() {
 	mainMenu.classList.remove('active');
 	closeMenu.style.display = 'none';
+	document.body.classList.remove('no-scroll');
 })
 
 searchBtn.addEventListener('click', function() {
