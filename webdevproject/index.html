@@ -15,24 +15,31 @@
 </head>
 <body>
 
-<header class="main-header-w">
-    <div class="main-header wrapper">
-        <div class="logo">
-            <a href="#"><img src="images/logo.png" width="124" height="24" alt="Web Development Project"></a>
+    <header class="main-header-w">
+        <div class="main-header wrapper">
+            <div class="logo">
+                <a href="#"><img src="images/logo.png" width="124" height="24" alt="Web Development Project"></a>
+            </div>
+            <nav class="main-navigation">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Servicing</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact us</a></li>                
+                </ul>
+            </nav>
+            <a href="#" class="search"><i class="fas fa-search"></i></a>
+            <a href="#" class="menu-responsive"><i class="fas fa-bars"></i></a>
+            <a href="#" class="close-menu-responsive"><i class="fas fa-times"></i></a>
+
+            <div class="search-block">
+                <input type="text" placeholder="Search">
+            </div>
         </div>
-        <nav class="main-navigation">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Servicing</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact us</a></li>
-                <li><a href="#" class="search"><i class="fas fa-search"></i></a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+
+    </header>
 
 <section class="main-banner-w">
     <div class="main-banner-content wrapper">
@@ -349,10 +356,8 @@
             <form action="">
                 <input type="text" placeholder="Your NAME">
                 <input type="text" placeholder="Your Email">
-                <textarea placeholder="Write Massage"></textarea>
-                <div class="contact-button-float">
-                    <button class="contact-button">Send</button>
-                </div>
+                <textarea placeholder="Write Massage"></textarea>                
+                <button class="contact-button">Send</button>                
             </form>
         </div>
     </div>
@@ -364,15 +369,28 @@
 
 <script src="js/jquery.min.js"></script>
 <script src="js/slick.min.js"></script>
+<script src="js/script.js"></script>
 
 <script>
     $('.members-blocks').slick({
         variableWidth: true,
         infinite: true,
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         arrows: false,
-        dots: true
+        dots: true,
+        responsive: [
+            {
+                breakpoint: 1199,
+                settings: {
+                    centerMode: true,         
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: true
+                }
+            }
+        ]
     });
 </script>
 
