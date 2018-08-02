@@ -8,7 +8,7 @@
 @media (max-width: 1199px) {
 	/* Header and Menu */
 	.menu-responsive {display: none;}
-	.close-menu-responsive {display: none; position: absolute; top: 35px; right: 35px; font-size: 40px; color:#fff; z-index: 12}
+	.close-menu-responsive {display: none; position: absolute; top: 20px; right: 25px; font-size: 40px; color:#fff; z-index: 12}
 	/* Service */
 	.service-block {width: 32%;}
 	/* works */
@@ -141,4 +141,7 @@
 .active {
 	opacity: 1;
 	visibility: visible;
+}
+.no-scroll {
+	overflow: hidden;
 }
